@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>login</title>
+  <meta content="text/html" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="ICON" type="image/x-icon" href=""/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+
+      <!-- login header  -->
+      <div class="container headerStyle">
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-2 col-sm-2 col-md-1 textAlignEnd">
+                <button class="textAlignEnd">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <p>ADD NEW AGENT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- login header  -->
+
+      <!-- form  -->
+      <div class="container form-main-grid main-grid">
+        <div class="row">
+
+          <!-- login form header -->
+          <div class="container">
+            <div class="row">
+
+              <div class="col-1 col-sm-1 col-md-1">
+                <i class="fas fa-search header-icon"></i>
+              </div>
+              <div class="col-10 col-sm-11 col-md-11 header-text">
+                <p>ENTER THE PARAMETERS OF SEARCH</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- login form header -->
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <hr/>
+              </div>
+            </div>
+          </div>
+
+          <!-- login form -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+
+                <form>
+                  <div class="form-row">
+
+                    <!--form first column  -->
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="form-row">
+                        <div class="col-sm-11 col-md-9 col-lg-11 input_divider">
+                          <label for="">Enter primary job title</label>
+                          <input type="text" class="form-control form-control-sm borderinput" placeholder="e.g. Telesale">
+                        </div>
+                        <div class="col-sm-11 col-md-9 col-lg-11 input_divider">
+                          <label for="">Enter sector experience</label>
+                          <input type="text" class="form-control form-control-sm borderinput" placeholder="PARAMETERS OF SEARCH">
+                        </div>
+                        <div class="col-sm-11 col-md-9 col-lg-11 input_divider">
+                          <label for="">Enter technologies/ frameworks/software</label>
+                          <input type="text" class="form-control form-control-sm borderinput" placeholder="you can enter several ">
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end form first column -->
+
+                    <!-- form second column -->
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="form-row">
+                        <div class="col-sm-11 col-md-9 col-lg-12 form-group input_divider">
+                          <label for="inState" class="">Choose voice character (for sales-agents)</label>
+                          <select id="inState" class="form-control form-control-MD">
+                            <option selected value="">Voice chapter 1 type</option>
+                            <option value="">...</option>
+                          </select>
+                        </div>
+
+                        <div class="col-sm-11 col-md-9 col-lg-12 input_divider">
+                          <label for="">Specify available hours per week</label>
+                          <input type="text" class="form-control form-control-sm borderinput" placeholder="25">
+                        </div>
+
+                        <div class="col-sm-11 col-md-9 col-lg-11 input_divider">
+                          <div class="row form-control-sm">
+
+                            <div class="col-sm-12 col-md-6">
+                              <div class="col-sm-12 form-control-sm">
+                                <label for="" >Choose languages</label>
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <input type="radio" name="language" class="sr-only" id="english">
+                                    <label for="english">
+                                      <img src="assets/img/englishselected.jpg" alt="english" width="40px" height="40px">
+                                    </label>
+                                    <label for="english">english</label>
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                    <input type="radio" name="language" class="sr-only" id="spanish">
+                                    <label for="spanish">
+                                      <img src="assets/img/spanishselected.jpg" alt="spanish" width="40px" height="40px">
+                                    </label>
+                                    <label for="spanish">spanish</label>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                              <div class="col-sm-12 form-control-sm">
+                                <label for="">Choose gender</label>
+                                <div class="row">
+                                  <div class="col-sm-4">
+                                    <input type="radio" name="gender" class="sr-only" id="male">
+                                    <label for="male">
+                                      <img src="assets/img/maleselected.jpg" alt="male" width="40px" height="40px">
+                                    </label>
+                                    <label for="male" class="icon-lable">male</label>
+                                  </div>
+
+                                  <div class="col-sm-4">
+                                    <input type="radio" name="gender" class="sr-only" id="female">
+                                    <label for="female">
+                                      <img src="assets/img/femaleselected.jpg" alt="female" width="40px" height="40px">
+                                    </label>
+                                    <label for="female" class="icon-lable">female</label>
+                                  </div>
+
+                                  <div class="col-sm-4">
+                                    <input type="radio" name="gender" class="sr-only" id="both">
+                                    <label for="both">
+                                      <img src="assets/img/bothselected.jpg" alt="both" width="40px" height="40px">
+                                    </label>
+                                    <label for="both" class="icon-lable">both</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- end form second column  -->
+
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <hr/>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- form btns -->
+                    <div class="col-sm-12">
+                      <div class="form-row">
+
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-8 right-side">
+                              <button type="button" class="btn btn-left">VIEW SAVED SEARCH</button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                              <div class="row">
+                                <div class="col-12 center-align">
+                                  <button type="button" class="btn btn-right-top">SEARCH FOR AGENTES</button>
+                                </div>
+                                <div class="col-12 center-align">
+                                  <button type="button" class="btn btn-right-bottom">SAVE THIS SEARCH</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end from btns -->
+
+
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+          <!-- login form -->
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>

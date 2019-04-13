@@ -1,0 +1,238 @@
+body {
+  background: #eff0f2;
+  color: #4A5464;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px; }
+
+.headerStyle {
+  box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
+  padding-top: 18px;
+  background: #fff; }
+  .headerStyle .textAlignEnd {
+    text-align: right;
+    color: #05A4F4;
+    border: none;
+    background: #fff; }
+
+.header-icon {
+  background: linear-gradient(274.57deg, #F66691 1.13%, #FC9968 74.54%, #FFBA69 102.21%);
+  color: #fff;
+  padding: 6px;
+  border-radius: 4px; }
+
+.icon {
+  color: #FFA368; }
+
+.zero-padding {
+  padding: 0 !important; }
+
+.main-grid {
+  padding: 32px 190px 18px 114px;
+  background: #fff;
+  box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
+  border-radius: 4px; }
+
+.header-text {
+  font-size: 1.25rem; }
+
+.form-main-grid {
+  margin: 32px 101px 88px; }
+
+.input_divider {
+  margin: 32px 0; }
+
+.borderinput {
+  border: 0px;
+  border-bottom: 1px solid #7A828D;
+  border-radius: 4px 4px 0px 0px;
+  background: #fbfbfb;
+  padding: 8px 6.43px 8px 22.14px;
+  font-size: 14px !important; }
+
+.btn-right-bottom {
+  font-size: 0.75rem;
+  background: #fff;
+  color: #b6b6b6;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px; }
+
+.btn-right-top {
+  font-size: 14px;
+  color: #A1A7AF;
+  border-radius: 2px;
+  background: #e4e4e4; }
+
+.right-side {
+  text-align: right; }
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.center-align {
+  display: flex !important;
+  align-items: center; }
+
+.btn-left {
+  color: #05A4F4;
+  font-size: 0.75rem;
+  background: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px; }
+
+.full-width {
+  display: block;
+  width: 100%; }
+
+select {
+  border: none !important;
+  border-bottom: 1px solid #7A828D !important;
+  border-radius: 0px !important; }
+
+input:focus, textarea:focus, button:focus, select:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.icon-lable {
+  margin-left: 5px; }
+
+label {
+  cursor: pointer;
+  filter: grayscale(100%); }
+
+label:hover {
+  filter: grayscale(0); }
+
+input[type="radio"]:checked + label {
+  filter: grayscale(0); }
+
+.refresh-icon {
+  padding-right: 12px; }
+
+.btn-primary {
+  background-color: #05A4F4;
+  border: none; }
+
+.btn-responsive {
+  white-space: normal !important;
+  word-wrap: break-word; }
+
+.btn-primary:hover {
+  background-color: #05A4F4;
+  border: none; }
+
+.btn-primary:active {
+  background-color: #05A4F4 !important;
+  border: none; }
+
+.header-row {
+  margin-top: 32px !important; }
+
+.btn-footer {
+  border-color: #05A4F4;
+  color: #05A4F4;
+  background-color: transparent; }
+
+.btn-radius {
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 40px; }
+
+.circle-image {
+  border-radius: 50%; }
+
+.avator {
+  margin-right: 33px; }
+
+.location {
+  margin-left: 79px; }
+
+.font-span {
+  font-weight: 500; }
+
+.icon-margin {
+  margin-right: 20px; }
+
+.btn-margin {
+  padding-left: 96px; }
+
+.play-icon {
+  margin-right: 15px; }
+
+.btn-space {
+  margin: 20px 0; }
+
+.primaryjob-icon {
+  padding-right: 17px; }
+
+@media screen and (max-width: 992px) {
+  .form-main-grid {
+    margin-left: 6px;
+    margin-right: 6px; }
+
+  .main-grid {
+    padding: 22px 18px 18px 18px; }
+
+  .avator {
+    margin-right: 23px; }
+
+  .btn-margin {
+    padding-left: 87px; } }
+@media screen and (min-width: 1440px) {
+  .select-margin {
+    margin-bottom: 29px; } }
+@media screen and (max-width: 575px) {
+  .formHeader {
+    font-size: 1rem; }
+
+  .main-grid {
+    padding: 22px 18px 10px 18px; }
+
+  .small-image {
+    width: 30px;
+    height: 30px; }
+
+  .right-side {
+    text-align: center; }
+
+  .visible {
+    visibility: hidden !important;
+    margin-top: -24px; }
+
+  .invisible {
+    visibility: visible !important; }
+
+  .invisible-part-top {
+    margin-top: -100px; }
+
+  .mobile-font {
+    font-size: 13px; }
+
+  .icon-margin {
+    margin-right: 10px; }
+
+  .header-text {
+    font-size: 16px; }
+
+  .avator {
+    margin-right: 15.8px; }
+
+  .btn-margin {
+    padding-left: 0; }
+
+  .primaryjob-icon {
+    padding-right: 17px; } }
+@media screen and (min-width: 575px) {
+  .invisable-part-bottom {
+    margin-top: -125px; } }
+
+/*# sourceMappingURL=style.css.map */
