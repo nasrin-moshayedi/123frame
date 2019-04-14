@@ -15,7 +15,6 @@ body {
 
 .headerStyle {
   box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
-  padding-top: 18px;
   background: $whiteBackground;
   .textAlignEnd{
     text-align: right;
@@ -25,11 +24,9 @@ body {
   }
 }
 
+
 .header-icon {
-  background: linear-gradient(274.57deg, #F66691 1.13%, #FC9968 74.54%, #FFBA69 102.21%);
-  color: $whiteBackground;
-  padding: 6px;
-  border-radius: 4px;
+  margin: 20px 32px 20px 52px;
 }
 
 .icon {
@@ -40,7 +37,7 @@ body {
   padding: 0!important;
 }
 .main-grid {
-  padding: $top 190px 18px 114px;
+  padding: $top 114px 18px 114px;
   background: $whiteBackground;
   box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
   border-radius: 4px;
@@ -54,9 +51,35 @@ body {
   margin: $top 101px 88px;
 
 }
+
+.center-text {
+  text-align: center;
+}
 .input_divider{
   margin: $top 0;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #4A5464;
 }
+
+.radio-button {
+  margin-right: 32px;
+  text-align: center;
+}
+
+.radio-grid {
+  display: flex;font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+}
+
 .borderinput {
   border: 0px;
   border-bottom: 1px solid #7A828D;
@@ -64,6 +87,7 @@ body {
   background: #fbfbfb;
   padding: 8px 6.43px 8px 22.14px;
   font-size: 14px!important;
+  max-width: 1164px;
 }
 
 
@@ -93,6 +117,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .center-align {
@@ -221,6 +251,16 @@ label:hover {
 .primaryjob-icon {
   padding-right: 17px;
 }
+
+@media screen and (max-width: 1200px) {
+  .main-grid {
+padding: 21px 78px 18px 40px
+  }
+
+  .form-main-grid {
+    margin: $top 80px 88px;
+  }
+}
   @media screen and (max-width: 992px) {
     .form-main-grid {
       margin-left: 6px;
@@ -228,7 +268,7 @@ label:hover {
     }
 
     .main-grid {
-      padding: 22px 18px 18px 18px;
+      padding: 22px 262px 18px 72px;
     }
 
     .avator {
@@ -255,7 +295,7 @@ label:hover {
     }
 
     .main-grid {
-      padding: 22px 18px 10px 18px;
+      padding: 22px 20px 10px 16px;
     }
 
     .small-image {
@@ -310,5 +350,12 @@ label:hover {
   @media screen and (min-width: 575px) {
     .invisable-part-bottom {
       margin-top: -125px;
+    }
+
+  }
+
+  @media screen and (max-width: 772px) {
+    .main-grid {
+      padding: 22px 20px 10px 16px;
     }
   }
