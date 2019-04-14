@@ -9,20 +9,9 @@ body {
 .headerStyle {
   box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
   background: #fff; }
-  .headerStyle .textAlignEnd {
-    text-align: right;
-    color: #05A4F4;
-    border: none;
-    background: #fff; }
 
 .header-icon {
   margin: 20px 32px 20px 52px; }
-
-.icon {
-  color: #FFA368; }
-
-.zero-padding {
-  padding: 0 !important; }
 
 .main-grid {
   padding: 32px 114px 18px 114px;
@@ -35,9 +24,6 @@ body {
 
 .form-main-grid {
   margin: 32px 101px 88px; }
-
-.center-text {
-  text-align: center; }
 
 .input_divider {
   margin: 32px 0;
@@ -113,10 +99,6 @@ body {
   text-align: center;
   letter-spacing: -0.1px; }
 
-.full-width {
-  display: block;
-  width: 100%; }
-
 select {
   border: none !important;
   border-bottom: 1px solid #7A828D !important;
@@ -125,9 +107,6 @@ select {
 input:focus, textarea:focus, button:focus, select:focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
-
-.icon-lable {
-  margin-left: 5px; }
 
 label {
   cursor: pointer;
@@ -139,64 +118,8 @@ label:hover {
 input[type="radio"]:checked + label {
   filter: grayscale(0); }
 
-.refresh-icon {
-  padding-right: 12px; }
-
-.btn-primary {
-  background-color: #05A4F4;
-  border: none; }
-
-.btn-responsive {
-  white-space: normal !important;
-  word-wrap: break-word; }
-
-.btn-primary:hover {
-  background-color: #05A4F4;
-  border: none; }
-
-.btn-primary:active {
-  background-color: #05A4F4 !important;
-  border: none; }
-
-.header-row {
-  margin-top: 32px !important; }
-
-.btn-footer {
-  border-color: #05A4F4;
-  color: #05A4F4;
-  background-color: transparent; }
-
-.btn-radius {
-  font-size: 14px;
-  line-height: 24px;
-  border-radius: 40px; }
-
-.circle-image {
-  border-radius: 50%; }
-
-.avator {
-  margin-right: 33px; }
-
-.location {
-  margin-left: 79px; }
-
-.font-span {
-  font-weight: 500; }
-
 .icon-margin {
   margin-right: 20px; }
-
-.btn-margin {
-  padding-left: 96px; }
-
-.play-icon {
-  margin-right: 15px; }
-
-.btn-space {
-  margin: 20px 0; }
-
-.primaryjob-icon {
-  padding-right: 17px; }
 
 @media screen and (max-width: 1200px) {
   .main-grid {
@@ -210,13 +133,7 @@ input[type="radio"]:checked + label {
     margin-right: 6px; }
 
   .main-grid {
-    padding: 22px 262px 18px 72px; }
-
-  .avator {
-    margin-right: 23px; }
-
-  .btn-margin {
-    padding-left: 87px; } }
+    padding: 22px 262px 18px 72px; } }
 @media screen and (min-width: 1440px) {
   .select-margin {
     margin-bottom: 29px; } }
@@ -231,9 +148,6 @@ input[type="radio"]:checked + label {
     width: 30px;
     height: 30px; }
 
-  .right-side {
-    text-align: center; }
-
   .visible {
     visibility: hidden !important;
     margin-top: -24px; }
@@ -244,23 +158,11 @@ input[type="radio"]:checked + label {
   .invisible-part-top {
     margin-top: -100px; }
 
-  .mobile-font {
-    font-size: 13px; }
-
   .icon-margin {
     margin-right: 10px; }
 
   .header-text {
-    font-size: 16px; }
-
-  .avator {
-    margin-right: 15.8px; }
-
-  .btn-margin {
-    padding-left: 0; }
-
-  .primaryjob-icon {
-    padding-right: 17px; } }
+    font-size: 16px; } }
 @media screen and (min-width: 575px) {
   .invisable-part-bottom {
     margin-top: -125px; } }

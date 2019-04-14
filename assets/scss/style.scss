@@ -16,26 +16,12 @@ body {
 .headerStyle {
   box-shadow: 0px 2px 18px rgba(179, 183, 186, 0.57);
   background: $whiteBackground;
-  .textAlignEnd{
-    text-align: right;
-    color: $secondary;
-    border: none;
-    background: $whiteBackground;
-  }
 }
-
 
 .header-icon {
   margin: 20px 32px 20px 52px;
 }
 
-.icon {
-  color: $primary;
-}
-
-.zero-padding {
-  padding: 0!important;
-}
 .main-grid {
   padding: $top 114px 18px 114px;
   background: $whiteBackground;
@@ -52,9 +38,6 @@ body {
 
 }
 
-.center-text {
-  text-align: center;
-}
 .input_divider{
   margin: $top 0;
   font-family: Roboto;
@@ -62,7 +45,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 24px;
-
 color: #4A5464;
 }
 
@@ -101,6 +83,7 @@ color: #4A5464;
   text-align: center;
   letter-spacing: -0.1px;
 }
+
 .btn-right-top {
   font-size: 14px;
   color: #A1A7AF;
@@ -141,11 +124,6 @@ color: #4A5464;
   letter-spacing: -0.1px;
 }
 
-.full-width {
-  display: block;
-  width: 100%;
-}
-
 select {
   border: none !important;
   border-bottom: 1px solid #7A828D !important;
@@ -153,14 +131,8 @@ select {
 }
 
 input:focus, textarea:focus, button:focus, select:focus {
-  // border-width: 0px !important;
   -webkit-box-shadow:none !important;
   box-shadow: none !important;
-  // outline: none !important;
-}
-
-.icon-lable {
-  margin-left: 5px;
 }
 
 label {
@@ -176,81 +148,9 @@ label:hover {
     filter: grayscale(0);
   }
 
-
-  // search results
-.refresh-icon {
-  padding-right: 12px;
-}
-
-  .btn-primary {
-    background-color: $secondary;
-    border: none;
-  }
-  .btn-responsive {
-    white-space: normal !important;
-    word-wrap: break-word;
-  }
-  .btn-primary:hover {
-    background-color: $secondary;
-    border: none;
-  }
-  .btn-primary:active {
-    background-color: $secondary!important;
-    border: none;
-  }
-
-
-  .header-row {
-    margin-top: $top !important;
-  }
-
-  .btn-footer {
-    border-color: $secondary;
-    color: $secondary;
-    background-color: transparent;
-  }
-
-  .btn-radius {
-    font-size: 14px;
-    line-height: 24px;
-    border-radius: 40px;
-  }
-
-  .circle-image {
-    border-radius: 50%;
-  }
-
-  .avator {
-    margin-right: 33px;
-  }
-
-  .location {
-    margin-left: 79px;
-  }
-
-  .font-span {
-    font-weight: 500;
-  }
-
   .icon-margin {
     margin-right: 20px;
   }
-
-  .btn-margin {
-    padding-left: 96px;
-  }
-
-.play-icon {
-  margin-right: 15px;
-}
-
-.btn-space {
-  margin: 20px 0;
-}
-
-.primaryjob-icon {
-  padding-right: 17px;
-}
 
 @media screen and (max-width: 1200px) {
   .main-grid {
@@ -270,17 +170,6 @@ padding: 21px 78px 18px 40px
     .main-grid {
       padding: 22px 262px 18px 72px;
     }
-
-    .avator {
-      margin-right: 23px;
-    }
-
-
-
-    .btn-margin {
-      padding-left: 87px;
-    }
-
   }
 
   @media screen and (min-width: 1440px) {
@@ -303,10 +192,6 @@ padding: 21px 78px 18px 40px
       height: 30px;
     }
 
-    .right-side {
-      text-align: center;
-    }
-
     .visible {
       visibility: hidden!important;
       margin-top: -24px;
@@ -319,30 +204,12 @@ padding: 21px 78px 18px 40px
       margin-top: -100px;
     }
 
-    .mobile-font {
-      font-size: 13px;
-    }
-
     .icon-margin {
       margin-right: 10px;
     }
 
     .header-text {
       font-size: 16px;
-    }
-
-    .avator {
-      margin-right: 15.8px;
-    }
-
-
-
-    .btn-margin {
-      padding-left: 0;
-    }
-
-    .primaryjob-icon {
-      padding-right: 17px;
     }
 
   }
