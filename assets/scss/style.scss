@@ -41,11 +41,11 @@ body {
 .input_divider{
   margin: $top 0;
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #4A5464;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4A5464;
 }
 
 .radio-button {
@@ -152,15 +152,15 @@ label:hover {
     margin-right: 20px;
   }
 
-@media screen and (max-width: 1200px) {
-  .main-grid {
-padding: 21px 78px 18px 40px
-  }
+  @media screen and (max-width: 1200px) {
+    .main-grid {
+      padding: 21px 78px 18px 40px !important;
+    }
 
-  .form-main-grid {
-    margin: $top 80px 88px;
+    .form-main-grid {
+      margin: $top 80px 88px;
+    }
   }
-}
   @media screen and (max-width: 992px) {
     .form-main-grid {
       margin-left: 6px;
@@ -183,8 +183,12 @@ padding: 21px 78px 18px 40px
       font-size: 1rem;
     }
 
+    .right-side {
+      text-align: center;
+    }
+
     .main-grid {
-      padding: 22px 20px 10px 16px;
+      padding: 22px 20px 10px 16px !important;
     }
 
     .small-image {
